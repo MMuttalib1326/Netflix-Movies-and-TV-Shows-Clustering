@@ -1,5 +1,6 @@
 <h1 align="center"> Netflix Movies and TV Shows Clustering</h1>
-![image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVBFqfXbAJRS-wuUZuD6p-rygQOKXjMb-ghw&usqp=CAU)
+
+![image](https://cdn.arstechnica.net/wp-content/uploads/2022/07/netflix.jpg)
 <p align="center"> 
 <img src="image/netflix-logo.gif" alt="..." height="150px">
 </p>
@@ -65,6 +66,7 @@
 ![--](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## 4. Content Based Recommender system using Cosine Similarity:
+![image](https://projex.gumlet.io/content-based-recommender-systems-project/images/Content-based_Filtering_Recommendation_System_Machine_Learning.png?w=320&dpr=2.6)
 * We can build a simple content based recommender system based on the similarity of the shows.
 * If a person has watched a show on Netflix, the recommender system must be able to recommend a list of similar shows that s/he likes. To get the similarity score of the shows, we can use cosine similarity.
 * The similarity between two vectors (A and B) is calculated by taking the dot product of the two vectors and dividing it by the magnitude. We can simply say that the CS score of two vectors increases as the angle between them decreases.
