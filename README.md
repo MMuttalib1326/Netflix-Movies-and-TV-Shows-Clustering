@@ -1,5 +1,8 @@
 <h1 align="center"> Netflix Movies and TV Shows Clustering</h1>
 
+![--](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![--](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ![image](https://cdn.arstechnica.net/wp-content/uploads/2022/07/netflix.jpg)
 <p align="center"> 
 <img src="image/netflix-logo.gif" alt="..." height="150px">
@@ -43,20 +46,22 @@
 * Raul Campos and Jan Suter have together directed in 18 movies, higher than anyone yet. This is followed by Marcus Roboy, Jay Karas, and Cathy Gracia-Molina. Alastair Fothergill has directed three TV shows, the most of any director. Only six directors have directed more than one television show.
 * Samuel West has appeared in 10 movies, followed by Jeff Dunham with 7 movies. David Attenborough has appeared in 13 TV shows, followed by Michela Luci, Jamie Watson, Anna Claire Bartlam, Dante Zee, Eric Peterson with 4 TV shows.
 
-![--](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
+ 
 ## 3. Clustering Summary:
+![--](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 * Clusters were built on the attributes: Director, Cast, Country, Rating, Listed in (genres), Description
 * Steps involved in preprosessing:Tokenize the corpus, Remove non-ascii characters, Convert all words to lowercase, Remove punctuation marks, Replace all numbers with its respective textual representation, Stemming and Lemmatization
 * Text corpus was vectorized using TFIDF vectorizer, and 20000 attributes were generated.
 * More than 80% of the variance is explained just by 4000 components. Hence to handle the curse of dimensionality, only the top 4000 components were taken, which will still be able to capture more than 80% of variance in the data.
 
 ### 3.1. K Means Clustering:
+![--](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 * The optimal number of clusters were built after visualizing the elbow curve and the Silhouette score.
 * Highest Silhouette score is obtained for 6 clusters using k-means clustering. Hence, the number of clusters for k-means clustering was taken as 6.
 * Silhouette score at 6 clusters: 0.0082
 
 ### 3.2. Hierarchical Clustering:
+![--](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 *  Clusters were built using the Agglomerative clustering algorithm, and the optimal number of clusters were built after visualizing the dendogram.
 * From the dendogram, at an Euclidean distance of 3.8 units, 12 clusters can be built. Hence the number of clusters were taken as 12.
 * Algorithm: Agglomerative clustering
@@ -74,6 +79,7 @@
 ![--](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## 5. Conclusions:
+![--](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 * In this project, we worked on a text clustering problem wherein we had to classify/group the Netflix shows into certain clusters such that the shows within a cluster are similar to each other and the shows in different clusters are dissimilar to each other.
 * The dataset contained about 7787 records, and 11 attributes.
 * It was found that Netflix hosts more movies than TV shows on its platform, and the total number of shows added on Netflix is growing exponentially. Also, majority of the shows were produced in the United States, and the majority of the shows on Netflix were created for adults and young adults age group.
@@ -82,4 +88,7 @@
 * We first built clusters using the k-means clustering algorithm, and the optimal number of clusters came out to be 6. This was obtained through the elbow method and Silhouette score analysis.
 * Hierarchical clustering model was built using the Agglomerative clustering algorithm, and the optimal number of clusters came out to be 12. This was obtained after visualizing the dendogram.
 * A content based recommender system was built using the similarity matrix obtained after using cosine similarity. This recommender system will make 10 recommendations to the user based on the type of show they watched.
+
+![--](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![--](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
