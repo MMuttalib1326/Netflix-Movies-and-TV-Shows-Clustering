@@ -1,6 +1,5 @@
 <h1 align="center"> Netflix Movies and TV Shows Clustering</h1>
 
-
 ![--](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 ![--](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
